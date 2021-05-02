@@ -1,0 +1,96 @@
+*{
+    background-color: rgb(230, 230, 230);
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flexbox;
+}
+.telefone{
+position: relative;
+margin-left: 80%;
+
+
+}
+
+
+    .logo{
+        margin-left: 3%;
+    }
+        .nav{
+        position: relative;
+        
+        }
+        #menu{
+        display: flex;
+        
+    
+        }
+        #menuconfig {
+        list-style: none;
+        padding:0;
+        padding-bottom:0;
+        
+        margin-left: 25%;
+        list-style-type: none;
+     
+        }
+        
+        #menuconfig li {
+        
+          display: inline-block;
+            padding-bottom: 2%;
+            padding: 2%;
+            
+        }
+        
+        #menuconfig a{
+        color: black;
+        text-decoration: none;
+            
+        }
+        #menuconfig a:hover {
+            color: grey;
+            
+          }
+
+          #line{
+            width: 100%;
+            border: 1px solid grey;
+        
+        }
+.foto{
+width: 90%;
+height: 90%;
+padding-left: 1%;
+padding-right: 1%;
+padding-top: 1%;
+padding-bottom: 5%;
+border-radius: 15px;
+}
+.pstyle{
+    margin-left: 10%;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hrstyle{
+
+width: 90%;
+}
+.rodape{
+    width: 20%;
+    height: 20%;
+    
+   
+
+
+
+}
+.hrstyle{
+    padding-left: 50%;
+}
